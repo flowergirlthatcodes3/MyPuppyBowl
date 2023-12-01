@@ -1,17 +1,33 @@
-
-
+.allPup{
+    display: inline-flex;
+    flex: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem ;
+    margin: 10px 8px 10px 8px ;
+  
+ 
+    
+}
 .all { 
     text-align: center;
-    display: flex;
+    display: flexbox;
+    flex-direction: column;
     flex-wrap: wrap;
     border: 2px solid thistle;
     padding: 1rem;
-    
-
-   
+    box-sizing: border-box;
+    gap: 2rem;
+    background-color: lavenderblush;
+    box-shadow: 4px darkmagenta solid;
+    justify-content: space-between;
 
 
 }
 h1 {
     text-align: center;
+}
+h2 {
+    text-align: center;
+    
 }
